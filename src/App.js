@@ -8,6 +8,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
+import iconImage from './SylvIcon.jpg';
 function App() {
     const [city, setCity] = useState('');
     const [weather, setWeather] = useState(null);
@@ -25,6 +26,13 @@ function App() {
     return (
         <div className="weather-app">
             <nav className="navbar">
+
+                <a href="/">
+                    <img
+                        src={iconImage}
+                        alt="Weather Icon"
+                        className="icon-image"/>
+                </a>
                 <div className="navbar-title">MirukuSCM WeatherAPP</div>
                 <div className="navbar-links">
                     <a href="#">Link 1</a>
@@ -58,6 +66,7 @@ function App() {
             </div>
         </div>);}
 export default App;
+
 
 
 
