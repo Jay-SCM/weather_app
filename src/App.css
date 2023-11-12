@@ -4,9 +4,32 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; /* Add this line to center vertically */
   height: 100vh;
 }
+/* Navbar Stylkes*/
+.navbar {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;  /* Add this line */
+  top: 0;  /* Add this line */
+}
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+/* video background styles */
 .video-background {
   position: absolute;
   top: 0;
@@ -16,10 +39,13 @@
   object-fit: cover;
   z-index: -1;
 }
+/* card styles*/
 .weather-card {
   position: relative;
   z-index: 1;
-  max-width: 400px;
+  width: 350px; /* Adjust the width to your preference */
+  height: 350px; /* Set the height to match the width for a square */
+  margin: auto; /* Add this line to center horizontally */
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -27,21 +53,24 @@
   text-align: center;
   transition: background-color 0.3s ease-in-out;
 }
+
 .weather-card:hover {
   background-color: rgba(31, 29, 29, 0.7);
 }
+
 .input-container {
   margin-bottom: 10px;
 }
+/* input styles */
 input {
   width:80%;
   padding: 10px;
   border-radius: 8px;
 }
-
 input:hover {
   background-color: #b2aeae;
 }
+/* button styles */
 button {
   width: 70%;
   padding: 10px;
@@ -55,11 +84,11 @@ button {
 button:hover {
   background-color: #134113;
 }
-
-
+/* weather info styles */
 .weather-info {
   margin-top: 20px;
 }
+/* style for error message*/
 .error {
   color: red;
 }
