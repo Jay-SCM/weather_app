@@ -4,7 +4,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center; /* Add this line to center vertically */
+  align-items: center;
   height: 100vh;
 }
 /* Navbar Stylkes*/
@@ -17,8 +17,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: absolute;  /* Add this line */
-  top: 0;  /* Add this line */
+  position: absolute;
+  top: 0;
 }
 .navbar-title {
   font-size: 1.5rem;
@@ -43,9 +43,9 @@
 .weather-card {
   position: relative;
   z-index: 1;
-  width: 350px; /* Adjust the width to your preference */
-  height: 350px; /* Set the height to match the width for a square */
-  margin: auto; /* Add this line to center horizontally */
+  width: 350px;
+  height: 350px;
+  margin: auto;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -53,11 +53,9 @@
   text-align: center;
   transition: background-color 0.3s ease-in-out;
 }
-
 .weather-card:hover {
   background-color: rgba(31, 29, 29, 0.7);
 }
-
 .input-container {
   margin-bottom: 10px;
 }
