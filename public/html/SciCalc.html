@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ScICaLc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <table class="calculator table">
+        <thead>
+        <tr>
+            <td colspan=7>
+                <div class="OutPut">
+                    <label for="ans">Answer:</label>
+                    <input type="text" class="ans form-control" readonly id="ans" name="ans">
+                </div>
+            </td>
+        </tr>
+        </thead>
+        <tbody class="actions">
+        <tr>
+            <td colspan=3></td>
+            <td>
+                <button class="BTN_OP" data-value='*('>(</button>
+            </td>
+            <td>
+                <button class="BTN_OP" data-value=')'>)</button>
+            </td>
+            <td>
+                <button class="BTN_OP" data-value='%'>%</button>
+            </td>
+            <td>
+                <button class="CLEAR" data-value='ce'>CE</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="MAT_OP" data-value='inv'>Inv</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='sin'>sin</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='ln'>ln</button>
+            </td>
+            <td>
+                <button  class="Numbtn" data-value='7'>7</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='8'>8</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='9'>9</button>
+            </td>
+            <td>
+                <button class="Arith_OP" data-value='/'>/</button>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="MAT_OP" data-value='*3.14'>π</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='cos'>cos</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='log'>log</button>
+            </td>
+            <td>
+                <button  class="Numbtn" data-value='4'>4</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='5'>5</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='6'>6</button>
+            </td>
+            <td>
+                <button class="Arith_OP" data-value='*'>×</button>
+
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+                <button class="MAT_OP" data-value='e'>e</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='tan'>tan</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='radic'>√</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='3'>3</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='2'>2</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='1'>1</button>
+            </td>
+            <td>
+                <button class="Arith_OP" data-value='-'>-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="MAT_OP" data-value='exp'>EXP</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='x^2'>x²</button>
+            </td>
+            <td>
+                <button class="MAT_OP" data-value='**'>x^</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='.'>.</button>
+            </td>
+            <td>
+                <button class="Numbtn" data-value='0'>0</button>
+            </td>
+            <td>
+                <button class="Arith_OP" data-value='='>=</button>
+            </td>
+            <td>
+                <button class="Arith_OP" data-value='+'>+</button>
+            </td>
+        </tr>
+        <script src="script.js"></script>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>

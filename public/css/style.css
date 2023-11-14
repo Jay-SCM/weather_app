@@ -1,0 +1,60 @@
+.calculator{
+    border:8px solid #2f2d2d;
+    width: 60px;
+    box-sizing: border-box;
+    margin: 10px auto 0;
+    background-color: aqua;
+}
+.OutPut{
+    color: #0a0a0a;
+    font-size: 2rem;
+}
+.CLEAR{
+    background-color: #f80606;
+    width: 150px;
+    height: 50px;
+    font-size: 1.8rem;
+}
+.calculator .form-control{
+    height: 100px;
+    background-color: #4f4d4d;
+}
+.calculator .form-group{
+    margin-bottom: 0;
+}
+.calculator input[type=text]{
+    font-size: 3.38rem;
+    color: #0a0a0a;
+}
+.calculator .btn {
+    font-size: 1.8rem;
+    color: #8b8b8d;
+    width: 150px;
+}
+.calculator .btn-op {
+    background-color: #dc1991;
+}
+.Numbtn{
+    background-color: #0e0ebe;
+    width: 150px;
+    height: 50px;
+    font-size: 1.8rem;
+}
+.Arith_OP{
+    background-color: #a25905;
+    width: 150px;
+    height: 50px;
+    font-size: 1.8rem;
+}
+.MAT_OP{
+    background-color: #6ae717;
+    width: 150px;
+    height: 50px;
+    font-size: 1.8rem;
+}
+.BTN_OP{
+    background-color: #f5be0d;
+    width: 150px;
+    height: 50px;
+    font-size: 1.8rem;
+}

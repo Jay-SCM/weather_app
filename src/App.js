@@ -8,7 +8,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './App.css';
-import iconImage from './SylvIcon.jpg';
+import iconImage from './icon/SylvIcon.jpg';
 function App() {
     const [city, setCity] = useState('');
     const [weather, setWeather] = useState(null);
@@ -35,7 +35,8 @@ function App() {
                 </a>
                 <div className="navbar-title">MirukuSCM WeatherAPP</div>
                 <div className="navbar-links">
-                    <a href="#">Link 1</a>
+                    <a href="/html/SciCalc.html">Link 1</a>
+
                     <a href="#">Link 2</a>
                     <a href="#">Link 3</a>
                     <a href="#">Link 4</a>
@@ -43,7 +44,7 @@ function App() {
             </nav>
             <div className="video-container">
                 <video autoPlay loop muted className="video-background">
-                    <source src="/video/Video.mp4" type="video/mp4" />
+                    <source src="/Video.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
             </div>
